@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>GRUD Hot Dog</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+  <div class="bg">
+    <img src="/img/bg.jpg" alt="Hot Dog image">
+  </div>
+  <div class="container">
+    <div class="form-input">
+      <label>GRUD Hot Dog</label>
+      <input id="hotdogName" type="text" class="form-control name" placeholder="Enter Name">
+      <button class="btn btn-primary" onclick="addHotdog()">Add</button>
+      <table class="table table-bordered table-dark">
+        <thead>
+          <tr>
+            <th scope="col">Name</th>
+            <th scope="col"></th>
+            <th scope="col"></th>
+          </tr>
+        </thead>
+        <tbody id="hotdogsTableBody"></tbody>
+    </div>
+  </div>
+  <script src="script/script.js"></script>
+</body>
+
+</html>
