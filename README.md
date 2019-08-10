@@ -9,7 +9,7 @@ $ npm i
 $ node server
 ```
 
-Verify the deployment by navigating to your server address in your preferred browser.
+Verify the deployment by navigating to server address in your preferred browser.
 
 ```sh
 http://localhost:8080
